@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(240, 250, 255);
+    background-color: rgb(196, 208, 214);
     margin: 0px;
     padding: 0px;
 
@@ -37,7 +37,7 @@ nav {
 }
 
 nav ul {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Proxima Nova;
     font-size: 16px;
     font-weight: 700;
     margin: 30px;
@@ -49,7 +49,7 @@ nav ul {
 }
 
 nav ul li a {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Proxima Nova;
     font-size: 16px;
     font-weight: 700;
     margin: 5px;
@@ -67,14 +67,14 @@ nav ul li a {
 }
 
 .text-container p:nth-child(1){
-    font-family: Calibri;
+    font-family: Brandon Grotesque;
     font-size: 22px;
     font-weight: bold;
     color: rgb(82, 82, 82);
 }
 
 .text-container p:nth-child(2){
-    font-family: Calibri;
+    font-family: Proxima Nova;
     font-size: 60px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -82,7 +82,7 @@ nav ul li a {
 }
 
 .text-container p:nth-child(3){
-    font-family: Calibri;
+    font-family: Brandon Grotesque;
     font-size: 30px;
     font-weight: bold;
     color: rgb(63, 63, 63);
@@ -130,20 +130,21 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(128,128,236,1) 0%, rg
     padding: 2px;
     margin: 5px;
     line-height: 25px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
     font-weight: normal;
     margin: 10px;
+    color: black;
 }
 
 h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 28px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
     font-weight: bolder;
 }
 
 .work {
-    height: 100px;
+    height: 180px;
     margin: 0px;
     display: flex;
     position: relative;
@@ -162,7 +163,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(128,128,236,1) 0%, rg
 }
 
 .work-text p:nth-child(1) {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
     font-weight: bold;
     line-height: 30px;
@@ -171,12 +172,12 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(128,128,236,1) 0%, rg
 }
 
 .work-text p:nth-child(2) {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
-    font-weight: 20px;
-    line-height: 20px;
+    font-weight: normal;
+    line-height: 15px;
     color: black;
-    width: 200%;
+    width: 100%;
     margin: 10px;
 }
 
@@ -258,7 +259,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(128,128,236,1) 0%, rg
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
     font-weight: normal;
-    color: black;
+    color: gray;
 }
 
 /* Hover effect  */
